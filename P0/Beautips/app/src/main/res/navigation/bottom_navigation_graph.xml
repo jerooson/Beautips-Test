@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.laioffer.beautips.Fragments.testFrag1"
+        tools:layout="@layout/main_activity_placeholder" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_profile_page"
+        android:name="com.laioffer.beautips.Fragments.StylistPage.StylistProfileFragment"
+        tools:layout="@layout/fragment_stylist_profile" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_group_test2"
+        android:name="com.laioffer.beautips.Fragments.testFrag2"
+        tools:layout="@layout/fragment_testfrag2" >
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_group_test3"
+        android:name="com.laioffer.beautips.Fragments.testFrag3"
+        tools:layout="@layout/fragment_testfrag3" >
+    </fragment>
+
+
+
+</navigation>
